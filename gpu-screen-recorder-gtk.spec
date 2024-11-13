@@ -32,7 +32,7 @@ BuildRequires: pkgconfig(libpipewire-0.3)
 BuildRequires: pkgconfig(libpulse)
 BuildRequires: pkgconfig(libswresample)
 BuildRequires: pkgconfig(gtk+-3.0)
-BuildRequires: pkgconfig(appindicator3-0.1)
+BuildRequires: pkgconfig(ayatana-appindicator3-0.1)
 BuildRequires: vulkan-headers
 
 Requires:    gpu-screen-recorder
