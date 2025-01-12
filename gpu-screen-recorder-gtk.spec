@@ -2,11 +2,11 @@
 #define git 20240603
 #define git2 r602.04db56a
 %define date 20241105
-%define tag 4.2.6
+%define tag 5.0.8
 
 Name: gpu-screen-recorder-gtk
 Version: %{tag}
-Release: 1.%{date}.0
+Release: 1
 Summary: This is a screen recorder that has minimal impact on system performance.
 Url: https://git.dec05eba.com/gpu-screen-recorder-gtk/about/
 Group: Video
@@ -14,7 +14,7 @@ License: GPL-3.0-only
 # Use... git clone --branch 4.2.6 --depth 1 https://repo.dec05eba.com/gpu-screen-recorder-gtk
 # for now lets choose tag instead of commit, so use 4.2.6
 # then create .xz archive gpu-screen-recorder-gtk-4.6.2.tar.xz
-Source0:  gpu-screen-recorder-gtk-4.6.2.tar.xz
+Source0:  gpu-screen-recorder-gtk-%{version}.tar.xz
 #Source0: https://dec05eba.com/snapshot/gpu-screen-recorder-gtk.git.%{git2}.tar.gz
 
 BuildRequires: meson
@@ -51,7 +51,7 @@ Supported video codecs:
     AV1 (not currently supported on NVIDIA if you use GPU Screen Recorder flatpak)
 
 %prep
-%autosetup -n %{name}-4.6.2
+%autosetup -n %{name}-%{version}
 
 %build
 %meson
