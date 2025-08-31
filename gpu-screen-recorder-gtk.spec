@@ -4,7 +4,7 @@
 %define tag %{version}
 
 Name: gpu-screen-recorder-gtk
-Version: 5.1.2
+Version: 5.7.8
 Release: 1
 Summary: This is a screen recorder that has minimal impact on system performance.
 Url: https://git.dec05eba.com/gpu-screen-recorder-gtk/about/
