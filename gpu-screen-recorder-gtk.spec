@@ -53,6 +53,5 @@ Supported video codecs:
 %files
 %{_bindir}/gpu-screen-recorder-gtk
 %{_datadir}/applications/com.dec05eba.gpu_screen_recorder.desktop
-%{_datadir}/metainfo/com.dec05eba.gpu_screen_recorder.appdata.xml
 %{_iconsdir}//hicolor/*x*/apps/
 %{_iconsdir}//hicolor/*x*/status/
