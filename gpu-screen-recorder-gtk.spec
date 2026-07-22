@@ -4,15 +4,15 @@
 %define tag %{version}
 
 Name: gpu-screen-recorder-gtk
-Version: 5.7.9
+Version: 5.8.0
 Release: 1
 Summary: This is a screen recorder that has minimal impact on system performance.
 Url: https://git.dec05eba.com/gpu-screen-recorder-gtk/about/
 Group: Video
 License: GPL-3.0-only
-# Use... git clone --branch 5.1.2 --depth 1 https://repo.dec05eba.com/gpu-screen-recorder-gtk
-# for now lets choose tag instead of commit, so use 5.1.2
-# then create .xz archive gpu-screen-recorder-gtk-5.1.2.tar.xz
+# Use... git clone --branch 5.8.0 --depth 1 https://repo.dec05eba.com/gpu-screen-recorder-gtk
+# for now lets choose tag instead of commit, so use 5.8.0
+# then create .xz archive gpu-screen-recorder-gtk-5.8.0.tar.xz
 Source0:  gpu-screen-recorder-gtk-%{version}.tar.xz
 #Source0: https://dec05eba.com/snapshot/gpu-screen-recorder-gtk.git.%{git2}.tar.gz
 
